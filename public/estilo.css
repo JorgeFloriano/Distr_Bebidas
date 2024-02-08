@@ -1,0 +1,131 @@
+* {
+    margin:0;
+}
+body {
+   background-color: rgb(174, 184, 237);
+}   
+main {
+    background-color: white;
+    width: 430px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.center {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+div.search {
+    background-color: #e7e6e6;
+    width: 100%;
+    border:1px solid #636161;
+    border-radius:5px;
+    padding-left: 1%;
+    margin-bottom: 5px;
+}
+select.search {
+    border: none;
+    padding: 2px 2px;
+    background-color: inherit;
+  }
+select.search:focus {
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+}
+input, select, option {
+    width: 100%;
+    border:1px solid #636161;
+    border-radius:5px;
+    padding: 0px 5px;
+}
+
+.texto {
+    text-align: justify;
+    margin: 1%;
+    color: black;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(55, 20, 126);
+    padding: 1px 10px;
+    margin:10px 10px 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{color:#000!important;background-color:#ccc!important}
+legend {
+    text-align:left;
+    font-style: oblique;
+    color: rgb(99, 5, 117);
+}
+input::placeholder,textarea::placeholder{
+    color:rgb(197, 195, 195)
+}
+
+div.gerQtd {
+    align-items: baseline;
+    padding: 0px;
+    margin: 0px;
+}
+.qtd {
+    height: 20px;
+    width:50px;
+}
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+} */
+    
+button.a, button.b {
+    width: 20px;
+    border-radius:0px;
+    height: 20px;
+    margin:0px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+#alert {
+    background-color: #f1bcbc;
+    text-align: center;
+    border:1px solid #9b0404;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.529);
+}
+ a {
+    margin-right: 10px;
+    color: rgb(55, 20, 126);
+}
+button.link, button.link:hover {
+    padding: 0px;
+    margin: 0px 5px 0px 0px;
+    text-decoration: underline;
+    color: rgb(55, 20, 126);
+    background-color: transparent !important;
+    border: none;
+}
+i.link {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(55, 20, 126);
+    background-color: transparent !important;
+    border: none;
+    cursor: pointer;
+}
+h2 {
+    margin-top: 0px;
+}
